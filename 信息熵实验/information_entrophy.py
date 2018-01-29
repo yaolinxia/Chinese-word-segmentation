@@ -1,5 +1,6 @@
 import math
 import json
+import operator
 
 # 计数器
 class Counter(dict):
@@ -39,11 +40,48 @@ def obj2Json(obj):
 		"右临近字":obj.right
 	}
 
+def add_entrophy_interval(name,neighbors,entrophy,isLeft,array):
+	if entrophy == 0:
+		if left:
+			if "0" in array.keys():
+				dict = array["0"]
+			else:
+				dict = {}
+				array["0"] = dict
+			dict[name] = neighbors[name].left
+		else:
+			if "0" in array.keys():
+				dict = array["0"]
+			else:
+				dict = {}
+				array["0"] = dict
+			dict[name] = neighbors[name].right
+	else:
+		index = int(entrophy)
+		key = str(index)+"~"+str(index+1)
+		if left:
+			if key in array.keys():
+				dict = array[key]
+			else:
+				dict = {}
+				array[key] = dict
+			dict[name] = neighbors[name].left
+		else:
+			if key in array.keys():
+				dict = array[key]
+			else:
+				dict = {}
+				array[key] = dict
+			dict[name] = neighbors[name].right
+
+
 #   ------------------------------------------------------------------------------   #
 frequency = Counter()		#频数词典
 total = 0					#总频数
 neighbors = {}				#临近字
 entrophies = {}				#每个词的信息熵
+left = {}					#左熵区间
+right = {}					#右熵区间
 
 #读文件
 with open("divide_result_1000.txt","r") as divide:
@@ -80,6 +118,8 @@ for name in neighbors:
 	entrophy = {}
 	entrophy["左熵"] = calculate_entrophy(nearest_word.left,nearest_word.total_left)
 	entrophy["右熵"] = calculate_entrophy(nearest_word.right,nearest_word.total_right)
+	add_entrophy_interval(name,neighbors,entrophy["左熵"],True,left)
+	add_entrophy_interval(name,neighbors,entrophy["右熵"],False,right)
 	entrophies[name] = entrophy
 
 # 保存临近词json
@@ -91,6 +131,21 @@ for name in neighbors:
 # with open("result/entrophies.json","w") as file:
 # 	jsObj = json.dump(entrophies,file,default=obj2Json,indent=2,ensure_ascii=False)
 # 	print(jsObj)
+
+left = sorted(left.items(),key=operator.itemgetter(0))#按照item中的第一个字符进行排序，即按照key排序
+right = sorted(right.items(),key=operator.itemgetter(0))#按照item中的第一个字符进行排序，即按照key排序
+# print(left)
+# print(right)
+
+# 统计左熵区间json
+with open("result/left_entrophy_interval.json","w") as file:
+	jsObj = json.dump(left,file,indent=2,ensure_ascii=False)
+	print(jsObj)
+
+# 统计右熵区间json
+with open("result/right_entrophy_interval.json","w") as file:
+	jsObj = json.dump(right,file,indent=2,ensure_ascii=False)
+	print(jsObj)
 
 
 
