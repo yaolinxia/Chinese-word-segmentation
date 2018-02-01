@@ -1,0 +1,695 @@
+﻿离婚	S-V	S-N
+
+合同	S-A	E-A
+
+利息	S-N	S-N
+
+利率	S-N	S-N
+
+合同	B-A	B-A
+约定	E-V	E-V
+
+担保	S-V	S-V
+
+借款	B-N	B-V
+合同	E-A	E-A
+
+民间	B-N	B-N
+借贷	E-N	E-N
+
+强制性	B-N	B-N
+规定	E-N	E-N
+
+贷款	S-N	S-N
+
+清偿	S-VN	S-N
+
+保证	S-V	S-V
+
+返还	S-V	S-N
+
+违约金	S-N	S-N
+
+给付	S-V	S-N
+
+违约责任	S-L	S-N
+
+交付	S-V	S-V
+
+买卖合同	S-N	S-N
+
+债务人	S-N	S-N
+
+处分	S-N	S-N
+
+传票	S-N	S-N
+
+债权人	S-N	S-N
+
+民事责任	S-N	S-N
+
+传唤	S-V	S-N
+
+债权	S-N	S-N
+
+缺席判决	S-N	S-N
+
+夫妻关系	S-N	S-N
+
+追偿	S-V	S-N
+
+连带责任	S-L	S-N
+
+抵押	S-VN	S-N
+
+承诺	S-V	S-N
+
+租赁	S-V	S-V
+
+保证	B-V	B-V
+合同	E-A	E-A
+
+驳回	S-V	S-N
+
+租金	S-N	S-N
+
+物业管理	S-N	S-N
+
+变更	S-V	S-N
+
+解除合同	S-I	S-N
+
+第三	B-M	B-N
+人	E-N	E-N
+
+管辖	S-V	S-N
+
+婚姻	S-N	S-N
+
+建设工程	S-N	S-N
+
+共同	B-D	B-D
+债务	E-N	E-N
+
+滞纳金	S-N	S-N
+
+抗辩权	S-N	S-N
+
+出卖	B-V	B-N
+人	E-N	E-N
+
+赔偿损失	S-N	S-N
+
+贷款人	S-N	S-N
+
+全面	B-N	B-N
+履行	E-V	E-V
+
+保人	S-N	S-N
+
+意思	B-N	B-VN
+表示	I-V	I-V
+真实	E-D	E-N
+
+所有权	S-N	S-N
+
+本案	B-R	B-N
+争议	E-N	E-N
+
+保证	B-V	B-V
+期间	E-F	E-N
+
+补充协议	S-N	S-N
+
+合同	B-A	B-A
+履行地	E-N	E-N
+
+催告	S-N	S-N
+
+代理	S-N	S-N
+
+标的物	S-N	S-N
+
+有效	B-A	B-A
+合同	E-A	E-A
+
+担保	B-V	B-V
+合同	E-A	E-A
+
+投资	S-VN	S-N
+
+鉴定	S-V	S-N
+
+房屋买卖	S-N	S-N
+
+分公司	S-N	S-N
+
+不	B-D	B-N
+履行	E-V	E-V
+
+房屋	B-N	B-N
+租赁	E-V	E-V
+
+合同	B-A	B-A
+解除	E-V	E-V
+
+诚实信用	B-L	B-N
+原则	E-N	E-N
+
+合同	B-A	B-A
+无效	E-A	E-A
+
+实际	B-N	B-N
+履行	E-V	E-V
+
+法定代表	B-N	B-N
+人	E-N	E-N
+
+保证金	S-N	S-N
+
+合同	B-A	B-A
+履行	E-V	E-V
+
+拍卖	S-V	S-N
+
+合伙	S-N	S-N
+
+抵押权	S-N	S-N
+
+补救措施	S-N	S-N
+
+反诉	S-V	S-N
+
+变卖	S-V	S-N
+
+律师	B-N	B-N
+代理费	E-N	E-N
+
+实际	B-N	B-N
+损失	E-N	E-N
+
+程序	B-N	B-N
+合法	E-N	E-N
+
+继续	B-V	B-N
+履行	E-V	E-V
+
+承租人	S-N	S-N
+
+授权	S-V	S-N
+
+撤回	B-V	B-N
+起诉	E-V	E-N
+
+约定	B-V	B-V
+期限	E-N	E-N
+
+垫付	S-V	S-N
+
+职务行为	S-N	S-N
+
+不动产	S-L	S-N
+
+最高额	B-B	B-N
+抵押	E-VN	E-N
+
+赔偿	B-V	B-V
+责任	E-N	E-N
+
+产权	B-N	B-N
+登记	E-V	E-V
+
+定金	S-N	S-N
+
+购销	B-V	B-V
+合同	E-A	E-A
+
+交付	B-V	B-V
+货物	E-N	E-N
+
+增值税	B-N	B-N
+发票	E-N	E-N
+
+销售	B-VN	B-V
+合同	E-A	E-A
+
+增值税	S-N	S-N
+
+还款	B-V	B-V
+协议	E-N	E-N
+
+股份	B-N	B-N
+有限公司	E-N	E-N
+
+预付款	S-N	S-N
+
+欺诈	S-VN	S-N
+
+合同	B-A	B-A
+成立	E-V	E-N
+
+个体	B-N	B-N
+工商户	E-N	E-N
+
+履行地	S-N	S-N
+
+代理人	S-N	S-N
+
+合同	B-A	B-A
+的	I-UJ	I-UJ
+履行	E-V	E-V
+
+对	B-P	B-N
+价	E-N	E-N
+
+赔偿金	S-N	S-N
+
+合同书	S-N	S-N
+
+书面	B-N	B-V
+合同	E-A	E-A
+
+企业法人	S-N	S-N
+
+认定	B-V	B-N
+有效	E-A	E-A
+
+诚实信用	S-L	S-N
+
+公司债	S-N	S-N
+
+委托	B-N	B-N
+代理人	E-N	E-N
+
+财产	B-N	B-N
+保全	E-V	E-V
+
+商品房	B-N	B-N
+预售	I-VN	I-V
+合同	E-A	E-A
+
+房屋	B-N	B-N
+所有权	E-N	E-N
+
+预期利益	S-N	S-N
+
+土地	B-N	B-N
+使用权	E-N	E-N
+
+不可抗力	S-L	S-N
+
+房屋	B-N	B-N
+权属	E-N	E-N
+
+房产证	S-J	S-N
+
+商品房	B-N	B-N
+预售	E-VN	E-VN
+
+房屋	B-N	B-N
+产	E-N	E-N
+
+房地产	B-J	B-VN
+开发	I-V	I-V
+企业	E-N	E-N
+
+国有土地	B-N	B-N
+使用权	E-N	E-N
+
+动产	S-N	S-N
+
+基金	S-N	S-N
+
+房屋产权	S-N	S-N
+
+恢复原状	S-N	S-N
+
+按揭	B-VN	B-N
+贷款	E-N	E-N
+
+合同	B-A	B-A
+有效	E-A	E-A
+
+无效	B-A	B-A
+合同	E-A	E-A
+
+查封	S-V	S-N
+
+房屋	B-N	B-N
+过户	E-N	E-N
+
+按揭	S-VN	S-N
+
+请求权	S-N	S-N
+
+工程质量	S-N	S-N
+
+从	B-P	B-V
+合同	E-A	E-A
+
+商品房	B-N	B-N
+购销	I-V	I-V
+合同	E-A	E-A
+
+变更	B-V	B-N
+登记	E-V	E-V
+
+迟延	B-NR	B-N
+履行	E-V	E-V
+
+共有	S-V	S-V
+
+拆迁	S-V	S-V
+
+损害赔偿	S-N	S-N
+
+担保	B-V	B-V
+期	E-N	E-N
+
+连带保证	B-N	B-N
+责任	E-N	E-N
+
+债权	B-N	B-N
+转让	E-V	E-N
+
+优先	B-VN	B-VN
+受偿	I-V	I-V
+权	E-N	E-N
+
+经济犯罪	S-L	S-N
+
+最高额	B-B	B-N
+担保	E-V	E-V
+
+借贷	B-N	B-V
+合同	E-A	E-A
+
+质押	S-V	S-N
+
+继承	S-V	S-N
+
+融资	S-VN	S-VN
+
+担保	B-V	B-V
+物权	E-N	E-N
+
+合同	B-A	B-A
+生效	E-N	E-N
+
+胁迫	S-V	S-N
+
+他项权证	S-N	S-N
+
+委托	B-N	B-N
+代理	I-N	I-N
+合同	E-A	E-A
+
+承兑	S-V	S-N
+
+授信	B-V	B-V
+合同	E-A	E-A
+
+汇票	S-N	S-N
+
+银行	B-N	B-N
+承兑汇票	E-N	E-N
+
+夫妻	B-N	B-N
+共同财产	E-L	E-L
+
+展期	S-VN	S-N
+
+抵押借款	B-N	B-V
+合同	E-A	E-A
+
+继承人	S-N	S-N
+
+逾期	B-T	B-N
+违约金	E-N	E-N
+
+民事行为	S-N	S-N
+
+冻结	S-V	S-N
+
+离婚	B-V	B-V
+协议	E-N	E-N
+
+委托合同	S-N	S-N
+
+分摊	S-VN	S-N
+
+旅游	B-VN	B-V
+合同	E-A	E-A
+
+公共秩序	S-NR	S-N
+
+不	B-D	B-D
+完全	I-AD	I-AD
+履行	E-V	E-V
+
+规避	B-V	B-N
+法律	E-N	E-N
+
+误工费	S-N	S-N
+
+服务	B-VN	B-N
+瑕疵	E-N	E-N
+
+票据	S-N	S-N
+
+案件	B-N	B-N
+受理费	E-N	E-N
+
+和解	S-V	S-N
+
+人身	B-N	B-N
+损害赔偿	E-N	E-N
+
+交通事故	S-N	S-N
+
+合法	B-N	B-N
+行为	E-V	E-N
+
+合同	B-A	B-A
+的	I-UJ	I-UJ
+效力	E-N	E-N
+
+受益人	S-N	S-N
+
+公共利益	S-N	S-N
+
+委托	B-N	B-N
+物	E-ZG	E-N
+
+处分权	S-N	S-N
+
+房地产	B-J	B-VN
+开发	I-V	I-V
+公司	E-N	E-N
+
+保管	S-V	S-N
+
+格式	B-N	B-V
+合同	E-A	E-A
+
+劳动合同	S-L	S-N
+
+劳动	B-VN	B-VN
+争议	E-N	E-N
+
+劳动报酬	S-L	S-N
+
+工伤	S-N	S-N
+
+劳动	B-VN	B-VN
+合	E-V	E-N
+
+保险费	S-N	S-N
+
+劳动	B-VN	B-VN
+仲裁	E-VN	E-N
+
+医疗保险	S-N	S-N
+
+不予	B-V	B-N
+受理	E-V	E-N
+
+书面形式	S-N	S-N
+
+企业	B-N	B-N
+改制	E-V	E-N
+
+经营权	S-N	S-N
+
+劳务	B-VN	B-V
+合同	E-A	E-A
+
+劳务	B-VN	B-N
+报酬	E-N	E-N
+
+雇佣	B-V	B-V
+关系	E-N	E-N
+
+法定期限	S-N	S-N
+
+养老金	S-NR	S-N
+
+承包合同	S-N	S-N
+
+伪造	S-V	S-N
+
+转包	S-V	S-N
+
+违法行为	S-L	S-N
+
+驳回	B-V	B-N
+起诉	E-V	E-N
+
+挂靠	S-V	S-N
+
+利害关系	S-N	S-N
+
+经营范围	S-N	S-N
+
+公积金	S-N	S-N
+
+竞业	B-N	B-N
+限制	E-V	E-V
+
+保险	B-N	B-N
+责任	E-N	E-N
+
+清算	S-V	S-N
+
+扣押	S-V	S-N
+
+关联	B-NS	B-N
+企业	E-N	E-N
+
+交通事故	B-N	B-N
+损害赔偿	E-N	E-N
+
+精神	B-N	B-N
+损害	E-V	E-N
+
+残疾	B-N	B-N
+赔偿金	E-N	E-N
+
+保险合同	S-N	S-N
+
+财产保险	S-N	S-N
+
+主要	B-B	B-N
+责任	E-N	E-N
+
+保险人	S-N	S-N
+
+第三者	B-NZ	B-N
+责任险	E-N	E-N
+
+次要	B-B	B-N
+责任	E-N	E-N
+
+被保险人	S-N	S-N
+
+赔偿	B-V	B-V
+数额	E-N	E-N
+
+误工	B-N	B-N
+损失	E-N	E-N
+
+赔偿义务	S-N	S-N
+
+理赔	S-V	S-N
+
+人身	B-N	B-N
+损害	E-V	E-V
+
+强制保险	S-N	S-N
+
+侵权行为	S-N	S-N
+
+财产权	S-N	S-N
+
+扶养	S-V	S-N
+
+重新	B-A	B-N
+鉴定	E-V	E-N
+
+过失	S-V	S-N
+
+保险	B-N	B-N
+范围	E-N	E-N
+
+保险	B-N	B-N
+赔偿	E-V	E-V
+
+过错责任	S-L	S-N
+
+精神	B-N	B-N
+损害赔偿	E-N	E-N
+
+免责	B-V	B-N
+条款	E-N	E-N
+
+注意	B-V	B-V
+义务	E-N	E-N
+
+保险	B-N	B-N
+理赔	E-V	E-N
+
+鉴定人	S-N	S-N
+
+保险	B-N	B-N
+期间	E-F	E-N
+
+保险单	S-N	S-N
+
+未成年人	S-L	S-N
+
+保险金额	S-N	S-N
+
+间接	B-B	B-N
+损失	E-N	E-N
+
+人身权利	S-L	S-N
+
+保险	B-N	B-N
+事故	E-N	E-N
+
+超载	S-V	S-N
+
+说明	B-V	B-V
+义务	E-N	E-N
+
+合法财产	S-L	S-N
+
+保险	B-N	B-N
+责任	I-N	I-N
+范围	E-N	E-N
+
+人寿保险	S-N	S-N
+
+抚养费	S-N	S-N
+
+赔偿	B-V	B-V
+责	E-N	E-N
+
+限额	B-N	B-N
+赔偿	E-V	E-V
+
+交通	B-N	B-N
+事	E-N	E-N
+
+监护人	S-N	S-N
+
+全额	B-N	B-N
+赔偿	E-V	E-V
+
+精神损失费	S-I	S-N
+
+直接	B-AD	B-N
+损失	E-N	E-N
+
+保险期限	S-N	S-N
+
