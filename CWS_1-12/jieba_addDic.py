@@ -9,6 +9,7 @@ import os
 import xml.dom.minidom
 import jieba
 
+#添加自定义词典userdict.txt
 jieba.load_userdict(u'E:\YanJiuSheng-download\\1a\python3.6.1\Lib\site-packages\jieba\\userdict.txt')
 #遍历某个文件夹下所有xml文件，path为存放xml的文件夹路径
 def read_XMLFile(path):
@@ -32,6 +33,7 @@ def read_XMLFile(path):
             #print(text)
         return text
 
+#读取path下的文件
 def read_txt(path):
 
 
@@ -41,13 +43,17 @@ def read_txt(path):
 
 #对文章text进行分词
 
+#停用词路径
 def stopwordlist(path):
     stopwords=[line.strip() for line in open(path,'r',encoding='utf-8').readlines()]
     return stopwords
 
-def segment(text,path):
-    textCut=jieba.cut(text,cut_all=True)
-    stopwords=stopwordlist(path)
+#分词path:指定停用词路径，text:要分词的文本
+#cut_all=True全模式
+#cut_all=False全模式
+def segment(text,stopwordsPath):
+    textCut=jieba.cut(text,cut_all=False)
+    stopwords=stopwordlist(stopwordsPath)
     result=''
     for w in textCut:
         if w not in stopwords:
@@ -56,6 +62,7 @@ def segment(text,path):
     print('sucess segment')
     return result
 
+#将text内容写入进path路径中
 def write_segmentFile(path,text):
     f=open(path,'w',encoding='utf-8')
     f.write(text)
@@ -63,11 +70,14 @@ def write_segmentFile(path,text):
     print('success')
 
 if __name__=='__main__':
-    path1=r'G:\研究生\法律文书\刑事一审文书测试集 (2)'
-    path2=r'H:\python-workspace\1-11-testWenShu\TestResult\\test_QW_addDic.txt'
+    path1=r'G:\研究生\法律文书\test'
+    path2=r'H:\python-workspace\test-CWS\test_2_2.txt'
+    path5 = r'H:\python-workspace\test-CWS\test_2_2（2）.txt'
     path3=r'H:\python-workspace\\1-5-testWenShu\\stopword.dic'
     #path4=r'C:\Users\LFK\Desktop\1.txt'
     text=read_XMLFile(path1)
+    #提取文书内容，写到path2中
+    write_segmentFile(path5, text)
     # text=read_txt(path4)
     result=segment(text,path3)
     write_segmentFile(path2,result)
