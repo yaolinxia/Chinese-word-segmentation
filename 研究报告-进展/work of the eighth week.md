@@ -26,13 +26,10 @@ F值： 88.4%
 
 F值：91.5%
 
- 
 
 **2.基于统计方法******
 
 凝固程度（概率）+文本自由运用程度（信息熵）
-
-# ![img](file:///C:\Users\yao\AppData\Local\Temp\ksohtml\wps164E.tmp.jpg)** **
 
 熵值结果进一步分析处理
 
@@ -50,7 +47,6 @@ c ：分词器正确标注的单词数
 
 则以上各指标的计算公式如下：
 
-![img](file:///C:\Users\yao\AppData\Local\Temp\ksohtml\wps165F.tmp.jpg) 
 
 | N    | e    | c    | 准确率P% | 召回率R% | F值   |
 | ---- | ---- | ---- | ----- | ----- | ---- |
