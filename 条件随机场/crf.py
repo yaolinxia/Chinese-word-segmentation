@@ -24,8 +24,6 @@ def crfTagging(input_file, output_file):
     input_data.close()
     output_data.close()
 
-
-
 # tag word likes 人民法院 to 人 B      民M       法 M            院E
 def wordTagging(word):
     
@@ -41,11 +39,6 @@ def wordTagging(word):
         result += word[len(word)-1] + word_POS +  "\tE\r\n"
                 
     return result
-
-
-
-
-
 
 # tag word likes 人民法院 to 人民 B-N      法院E-N
 def wordsTagging(formated_words):
@@ -119,14 +112,14 @@ def crf_segmenter(input_file, output_file, tagger):
  '''
 
 if __name__ == '__main__':
-    input_file = r'C:\Users\ldk\Documents\workspace\SegmentDemo\TestResult\divide_result_1000.txt'
-    output_file = r'C:\Users\ldk\Documents\workspace\SegmentDemo\TestResult\train_data_1000.txt'
+    input_file = r'H:\python-workspace\Chinese-word-segmentation\条件随机场\TestResult\divide_result_1000.txt'
+    output_file = r'H:\python-workspace\test-CWS\train_data_1000_2_2.txt'
     
-    input_file3 = r'C:\Users\ldk\Documents\workspace\SegmentDemo\TestResult\keywords_distinct.txt'
-    output_file3 = r'C:\Users\ldk\Documents\workspace\SegmentDemo\TestResult\train_data_keywords.txt'
+    input_file3 = r'H:\python-workspace\Chinese-word-segmentation\条件随机场\TestResult\keywords_distinct.txt'
+    output_file3 = r'H:\python-workspace\test-CWS\train_data_keywords_2_2.txt'
     
     crf_model = r'C:\Users\ldk\Desktop\CRF++-0.58\template'
-    input_file2 = r'C:\Users\ldk\Documents\workspace\SegmentDemo\TestResult\test_QW_addDic_precise.txt'
+    input_file2 = r'H:\python-workspace\Chinese-word-segmentation\条件随机场\TestResult\test_QW_addDic_precise.txt'
     output_file2 = r'C:\Users\ldk\Documents\workspace\SegmentDemo\TestResult\train_data_ldk.txt'
     
     precise = analyse.caculate_precise_byfile(r'C:\Users\ldk\Documents\workspace\SegmentDemo\TestResult\test_result_keywords.txt')
