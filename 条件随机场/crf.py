@@ -112,25 +112,9 @@ def crf_segmenter(input_file, output_file, tagger):
  '''
 
 if __name__ == '__main__':
-    input_file = r'H:\python-workspace\Chinese-word-segmentation\条件随机场\TestResult\divide_result_1000.txt'
-    output_file = r'H:\python-workspace\test-CWS\train_data_1000_2_2.txt'
-    
-    input_file3 = r'H:\python-workspace\Chinese-word-segmentation\条件随机场\TestResult\keywords_distinct.txt'
-    output_file3 = r'H:\python-workspace\test-CWS\train_data_keywords_2_2.txt'
-    
-    crf_model = r'C:\Users\ldk\Desktop\CRF++-0.58\template'
-    input_file2 = r'H:\python-workspace\Chinese-word-segmentation\条件随机场\TestResult\test_QW_addDic_precise.txt'
-    output_file2 = r'C:\Users\ldk\Documents\workspace\SegmentDemo\TestResult\train_data_ldk.txt'
-    
-    precise = analyse.caculate_precise_byfile(r'C:\Users\ldk\Documents\workspace\SegmentDemo\TestResult\test_result_keywords.txt')
+
+    #test_keywords = formator.get_krywords_from__excel(r'E:\python_workspace\Chinese-word-segmentation\条件随机场\TestResult\案由 关键词统计表 20180105v2.xlsx')
+    #formator.write_keywords_with_tag(test_keywords,r'E:\python_workspace\Chinese-word-segmentation\条件随机场\testResult_0321\judge_keywords挑选案由.txt')
+    precise = analyse.caculate_precise_byfile(
+        r'E:\python_workspace\Chinese-word-segmentation\条件随机场\testResult_0321\test_result_0331.txt.utf8')
     print(precise)
- #   tagger = CRFPP.Tagger("-m " + crf_model)
-  #  crf_segmenter(input_file2, output_file2, tagger)
-    
-  #  crfTagging(input_file3, output_file3)
-    
-  #  test_keywords = formator.get_krywords_from__excel(r'C:\Users\ldk\Documents\workspace\SegmentDemo\TestResult\案由 关键词统计表 20180105v2.xlsx')
-  #  formator.write_keywords_with_tag(test_keywords,r'C:\Users\ldk\Documents\workspace\SegmentDemo\TestResult\test_data_keywords.txt')
-   
-   
-    

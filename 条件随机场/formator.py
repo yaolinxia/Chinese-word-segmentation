@@ -27,7 +27,7 @@ def get_krywords_from__excel(path):
 #文件位置
     ExcelFile=xlrd.open_workbook(path)
     print (path)
-    sheet=ExcelFile.sheet_by_name('民事大于50w')
+    sheet=ExcelFile.sheet_by_name('挑选案由')
 
 #打印sheet的名称，行数，列数
     print (sheet.name)
