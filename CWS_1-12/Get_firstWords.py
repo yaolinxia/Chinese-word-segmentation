@@ -2,7 +2,7 @@
 # _*_ coding:utf-8 _*_
 
 
-f = open("H:\python-workspace\\1-11-testWenShu\TestResult\\test_QW_addDic.txt",encoding="utf-8");
+f = open("E:\\python_workspace\\Chinese-word-segmentation\\CWS_1-12\\TestResult\\test_QW_addDic.txt",encoding="utf-8");
 count = {}
 for line in f:
     line = line.strip()

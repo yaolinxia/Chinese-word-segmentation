@@ -10,6 +10,7 @@ with open("testJson.json", encoding='utf-8') as f:
     print(len(temp))
     while i < len1:
         for case in temp:
+
             print(case['name'] +' '+ str(case['count']))
         i += 1
 

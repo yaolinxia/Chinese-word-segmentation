@@ -10,7 +10,8 @@ import xml.dom.minidom
 import jieba
 
 #添加自定义词典userdict.txt
-jieba.load_userdict(u'E:\YanJiuSheng-download\\1a\python3.6.1\Lib\site-packages\jieba\\userdict.txt')
+jieba.load_userdict(u'E:\python_workspace\Chinese-word-segmentation\CWS_1-12\\userdict.txt')
+jieba.load_userdict(u'E:\python_workspace\\test-path\DicOutput\\minshi.txt')
 #遍历某个文件夹下所有xml文件，path为存放xml的文件夹路径
 def read_XMLFile(path):
     # 判断路径是否存在
@@ -35,9 +36,7 @@ def read_XMLFile(path):
 
 #读取path下的文件
 def read_txt(path):
-
-
-    f=open(path,'r',encoding='utf-8')
+    f=open(path, 'r', encoding='utf-8')
     text=f.read()
     return text
 
@@ -45,7 +44,7 @@ def read_txt(path):
 
 #停用词路径
 def stopwordlist(path):
-    stopwords=[line.strip() for line in open(path,'r',encoding='utf-8').readlines()]
+    stopwords = [line.strip() for line in open(path,'r',encoding='utf-8').readlines()]
     return stopwords
 
 #分词path:指定停用词路径，text:要分词的文本
@@ -70,10 +69,10 @@ def write_segmentFile(path,text):
     print('success')
 
 if __name__=='__main__':
-    path1=r'G:\研究生\法律文书\test'
-    path2=r'H:\python-workspace\test-CWS\test_2_2.txt'
-    path5 = r'H:\python-workspace\test-CWS\test_2_2（2）.txt'
-    path3=r'H:\python-workspace\\1-5-testWenShu\\stopword.dic'
+    path1 = r'E:\python_workspace\WenShu_Test'
+    path2 = r'E:\python_workspace\test-path\test_dic_0419.txt'
+    path5 = r'E:\python_workspace\test-path\test_dicSeg_0419.txt'
+    path3 = r'E:\python_workspace\Chinese-word-segmentation\CWS_1-12\\stopword.dic'
     #path4=r'C:\Users\LFK\Desktop\1.txt'
     text=read_XMLFile(path1)
     #提取文书内容，写到path2中
