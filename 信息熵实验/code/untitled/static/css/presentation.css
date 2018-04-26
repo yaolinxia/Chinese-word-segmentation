@@ -1,0 +1,23 @@
+#file-selector {
+    margin-top: 25px;
+    width: 100%;
+    height: 150px;
+}
+#content {
+    width: 100%;
+    position: absolute;
+    top: 180px;
+    bottom: 0px;
+}
+
+.words-area{
+    width:100%;
+    position: absolute;
+    top:52px;
+    bottom: 0px
+}
+
+.seg-section{
+    height: 100%;
+    padding: 16px
+}
