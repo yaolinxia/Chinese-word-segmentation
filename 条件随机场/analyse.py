@@ -9,8 +9,7 @@ import codecs
 
 #计算精确度
 def caculate_precise_byfile(path):
-    
-   
+
     size = 0
     correct_size = 0
     
