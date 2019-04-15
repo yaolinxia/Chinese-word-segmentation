@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../../../../毕业设计/文件/code/untitled/.idea/untitled.iml" filepath="$PROJECT_DIR$/../../../../毕业设计/文件/code/untitled/.idea/untitled.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/untitled.iml" filepath="$PROJECT_DIR$/.idea/untitled.iml" />
+      <module fileurl="file://H:\python-workspace\Chinese-word-segmentation\毕业设计\文件\code\untitled\.idea\untitled.iml" filepath="H:\python-workspace\Chinese-word-segmentation\毕业设计\文件\code\untitled\.idea\untitled.iml" />
     </modules>
   </component>
 </project>

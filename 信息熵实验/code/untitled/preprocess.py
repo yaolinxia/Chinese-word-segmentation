@@ -1,4 +1,4 @@
-import re
+OCRimport re
 
 def term_preprocess(content,stopword_path):
 	stopwords = stopwordlist(stopword_path)
